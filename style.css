@@ -1,0 +1,130 @@
+body {
+  width: 100%;
+  font-family: "Turret Road script=all rev=2";
+}
+
+img {
+  width: 50%;
+}
+
+iframe {
+width: 100%;
+}
+
+/* Beginning Of Navigation */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00ff00;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffff00;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+/* #example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #ff8000;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #ff8000;
+}
+
+#example3 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #ffff00;
+}
+
+#example4 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #ffff00;
+}
+
+#example5 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #008000;
+}
+
+  #examples1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+
+  #examples2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+  }
+
+  #examples3 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+  } */
+
+	h1 {
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+	}
+
+.left {
+  order: -1;
+}
+
+.right {
+  order: 1;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  width: 100%;
+  border: 4px solid orange;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+img {
+	justify-content: center;
+}
+
